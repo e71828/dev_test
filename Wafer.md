@@ -58,3 +58,11 @@ To use Registry Editor to turn on automatic logon, follow these steps:
 1. Exit Registry Editor.
 2. Click **Start**, click **Restart**.
 4. Restart your computer. You can now log on automatically.
+
+## Config Autologin with cmd(admin)
+```Powershell
+REG ADD "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v DefaultUserName /t REG_SZ /d Adminstrator
+REG ADD "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v DefaultPassword /t REG_SZ /d admin
+REG ADD "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v AutoAdminLogon /t REG_SZ /d 1
+```
+
