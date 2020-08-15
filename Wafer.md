@@ -19,5 +19,6 @@ To test in the miwifi, add another ip: `192.168.31.20`
 3. Rename the connection `.. I219-LM` to `DSP`；
 4. Right click on `智能平台`> `Properties`> `TCP/IPV4`> `Use the following IP address`, IP address: `192.168.0.20`, Subnet mask: `255.255.255.0`;
 5. After last input, click `Advanced..`> in `IP address` area, click `ADD`> IP address: `192.168.31.20`, Subnet mask  : `255.255.255.0` and click `Add` to confirm> `OK`.
+5. Right click on `DSP`> `Properties`> `TCP/IPV4`> `Use the following IP address`, IP address: `192.168.1.10`, Subnet mask: `255.255.255.0`;
 6. Open Windows Powershell, `ping 192.168.31.163`, if OK will reply with some time delay.
 7. Rename the computer to `Sense-Center` and we can `ping` from anywhere else in `LAN` with `ping sense-center`.
