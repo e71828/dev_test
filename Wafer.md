@@ -13,6 +13,10 @@ We assign the disk `D` as the public disk, which meanss everyone in the `LAN` ca
 The ip of Wafer is assigned to be `192.168.0.20`.  
 To test in the miwifi, add another ip: `192.168.31.20`
 
+## Mac Address
+- 00-18-7D-CA-B2-22
+- 00-18-7D-CA-B2-0E
+
 ## how to achievement
 1. Open `Change adapter options`, view `Control Panel\Network and Internet\Network Connections`;
 2. Rename the connection `.. I211 ...` to `智能平台`；
