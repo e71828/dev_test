@@ -1,6 +1,6 @@
 # share folders
 
-We assign the disk `D` as the public disk, which meanss everyone in the `LAN` can fetch or push files. More cconvenient than `Git.`
+We assign the disk `D` as the public disk, which meanss everyone in the `LAN` can fetch or push files. More convenient than `Git.`
 
 ## how to achievement
 1. Rename the disk `本地磁盘(D:)` to`Share`.
