@@ -1,3 +1,8 @@
+# Remote Desktop
+**Allow remote connections to this computer!**  
+**Allow remote connections to this computer!**  
+**Allow remote connections to this computer!**  
+
 # share folders
 
 We assign the disk `D` as the public disk, which meanss everyone in the `LAN` can fetch or push files. More convenient than `Git.`
