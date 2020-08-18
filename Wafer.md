@@ -3,6 +3,8 @@
 **Allow remote connections to this computer!**  
 **Allow remote connections to this computer!**  
 
+You must restart the machine after your remote deployment.
+
 # share folders
 
 We assign the disk `D` as the public disk, which meanss everyone in the `LAN` can fetch or push files. More convenient than `Git.`
@@ -19,7 +21,7 @@ The ip of Wafer is assigned to be `192.168.0.20`.
 To test in the miwifi, add another ip: `192.168.31.20`
 
 ## Mac Address
-- 00-18-7D-CA-B2-22
+- 00-18-7D-CA-B2-22 
 - 00-18-7D-CA-B2-0E
 
 ## how to achievement
