@@ -21,8 +21,14 @@ The ip of Wafer is assigned to be `192.168.0.20`.
 To test in the miwifi, add another ip: `192.168.31.20`
 
 ## Mac Address
-- 00-18-7D-CA-B2-22 
-- 00-18-7D-CA-B2-0E
+- 1号机
+    - 00-18-7D-CA-B2-22
+    - 00-18-7D-CA-B2-21
+- 0号机
+    - 00-18-7D-CA-B2-0E
+    - 00-18-7D-CA-B2-0D
+  
+  We can enable `Wake-on-LAN` on the two System through ethernet. Generally, wo need both supports of the BIOS and driver.
 
 ## how to achievement
 1. Open `Change adapter options`, view `Control Panel\Network and Internet\Network Connections`;
